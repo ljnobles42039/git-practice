@@ -1,0 +1,81 @@
+nav {
+    background-color: red;
+    color: rgba(255, 255, 255, 0.8);
+    padding-top: 15px;
+    height: 40px;
+
+}
+
+nav a {
+    color:  rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    margin 40px 0;
+}
+
+.container {
+    align-items: center;
+}
+
+.top-left {
+    float:left;
+    padding: 0 10px;
+}
+.top-links {
+    display: inline-block;
+    float: right;
+    padding: 0;
+    margin: 0 20px 0 0;
+    top: 10px;
+    left: 300px;
+    
+}
+
+.top-links li {
+    display: inline-block;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.top-left a{
+    padding: 0 40px;
+}
+
+.search-icon {
+    max-width: 2.5%;
+    max-height: 2.5%;
+    float: right;
+}
+
+.top-what {
+    padding: 0 auto;
+    background-color: red;
+}
+
+.npm {
+    background-image: url(images/forklift.svg);
+    background-size: cover;
+    position: relative;
+    height: 360px;
+
+}
+
+.npm-text {
+    width: 60%;
+    position: absolute;
+}
+
+header {
+    background-image: url(images/city-scape.svg);
+}
+
+.three-what {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 75px 0;
+}
+#three-what > div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
